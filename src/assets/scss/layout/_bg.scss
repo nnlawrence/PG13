@@ -3,6 +3,7 @@
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
+// ('http://www.boutiquehotelnews.com/media/284443/the-world-23.jpg')
 
 /* BG */
 
@@ -45,9 +46,7 @@
 			'transform #{_duration(article)} ease-in-out',
 			'filter #{_duration(article)} ease-in-out'
 		));
-		background-image:		url('http://www.boutiquehotelnews.com/media/284443/the-world-23.jpg');
-		//https://www.sciencealert.com/images/articles/processed/origins_life_earth_1024.jpg
-		//https://www.thoughtco.com/thmb/pyj1mfbluRyifzhhYxtnLcQtaow=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/JavaScript-58d160303df78c3c4fe787e3.jpg
+		background-image: url('https://images.unsplash.com/photo-1476304884326-cd2c88572c5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
 		background-position:	center;
 		background-size:		cover;
 		background-repeat:		no-repeat;
