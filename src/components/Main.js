@@ -56,15 +56,16 @@ class Main extends React.Component {
         >
           <h2 className="major">Projects</h2>
           <span className="image main">
-            <h3>TechPanda</h3>
+            <h3 className='tp'>TechPanda</h3>
           <iframe src="https://player.vimeo.com/video/377590207" width="100%" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-          <p><a href="https://vimeo.com/377590207">TechPanda</a></p>
-          <p>Group full-stack eCommerce web application that allows users to view and purchase new tech from google and apple. I implemented all animations, HTML, CSS, etc.</p>
-          <h3>Voilà</h3>
-          <iframe src="https://player.vimeo.com/video/377698079" width="100%" height="321" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-          <p><a href="https://vimeo.com/377698079">Voila</a></p>
+          <p className='tp'><a href="https://vimeo.com/377590207">TechPanda</a></p>
+          <p className='tp'>Group full-stack eCommerce web application that allows users to view and purchase new tech from google and apple. I implemented all animations, HTML, CSS, etc.</p>
+          <h3 className='tp'>Voilà</h3>
+          <iframe className='tp' src="https://player.vimeo.com/video/377698079" width="100%" height="321" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+          <p className='tp'><a href="https://vimeo.com/377698079">Voila</a></p>
+          <p className='tp'>Full-stack web application that allows users to locate food trucks and view information about them. Food truck owners can add new or additional food trucks and update their coordinates to be shown in a new location. RESTful API design</p>
           </span>
-          <p>Full-stack web application that allows users to locate food trucks and view information about them. Food truck owners can add new or additional food trucks and update their coordinates to be shown in a new location. RESTful API design</p>
+
           {close}
         </article>
 
